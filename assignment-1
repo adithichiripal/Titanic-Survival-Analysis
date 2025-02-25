@@ -3,8 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load the dataset
-titanic_data = pd.read_csv('C:/Users/adith/Downloads/train.csv')  # Use forward slashes or double backslashes
-
+titanic_data = pd.read_csv('C:/Users/adith/Downloads/train.csv')  
 # Display the first few rows of the dataset
 print(titanic_data.head())
 
